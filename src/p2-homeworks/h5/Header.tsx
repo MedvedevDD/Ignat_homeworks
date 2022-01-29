@@ -10,9 +10,9 @@ function Header() {
 
         <div>
             <div>
-                <NavLink to="/pre-junior">Пре-Джун</NavLink>
-                <NavLink to="/junior">Джун</NavLink>
-                <NavLink to="/junior+">Джун+</NavLink>
+                <NavLink to="/pre-junior">Пре-Джун </NavLink>
+                <NavLink to="/junior">Джун </NavLink>
+                <NavLink to="/junior+">Джун+ </NavLink>
 
             </div>
         </div>
