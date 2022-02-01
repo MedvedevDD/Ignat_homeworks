@@ -34,13 +34,13 @@ export default function BasicMenu() {
                     'aria-labelledby': 'basic-button',
                 }}
             >
-                <div onClick={handleClose} style={{margin:"10px", color: "gold", fontSize:"20px", fontWeight: "bold", border:"2px solid black",}}>
+                <div onClick={handleClose} style={{margin:"10px", color: "gold", fontSize:"20px", fontWeight: "bold", border:"2px solid black", borderRadius:"5px"}}>
                     <NavLink to="/pre-junior">Пре-Джун </NavLink>
                 </div>
-                <div onClick={handleClose} style={{margin:"10px", color: "gold", fontSize:"20px", fontWeight: "bold", border:"2px solid black"}}>
+                <div onClick={handleClose} style={{margin:"10px", color: "gold", fontSize:"20px", fontWeight: "bold", border:"2px solid black", borderRadius:"5px"}}>
                     <NavLink to="/junior">Джун </NavLink>
                 </div>
-                <div onClick={handleClose} style={{margin:"10px", color: "gold", fontSize:"20px", fontWeight: "bold", border:"2px solid black"}}>
+                <div onClick={handleClose} style={{margin:"10px", color: "gold", fontSize:"20px", fontWeight: "bold", border:"2px solid black", borderRadius:"5px"}}>
                     <NavLink to="/junior+">Джун+ </NavLink>
                 </div>
                 {/*<MenuItem onClick={handleClose}>Profile</MenuItem>*/}
